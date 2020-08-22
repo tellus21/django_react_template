@@ -19,8 +19,8 @@ admin:
 django:
 	docker-compose run --rm app sh -c "django-admin startproject app ."
 
-react:
-	docker-compose run --rm react sh -c "create-react-app frontend"
-
 redux:
-	docker-compose run --rm react sh -c "create-react-app frontend . --template redux"
+	docker-compose run --rm react sh -c "create-react-app frontend --template redux"
+
+react-typescript:
+	docker-compose run --rm react sh -c "create-react-app frontend --template redux-typescript"
