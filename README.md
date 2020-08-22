@@ -11,3 +11,5 @@ redux使うならコマンド変更
 Django -> localhost:8000 にアクセスする。
 
 React -> localhost:3000 にアクセスする。
+
+reactはfrontディレクトリで作業する。
