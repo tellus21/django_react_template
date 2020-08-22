@@ -9,5 +9,6 @@ RUN npm install @material-ui/icons
 RUN npm install @material-ui/lab
 RUN npm install formik
 RUN npm install formik-material-ui
-RUN npm install yup @types/yup]
+RUN npm install yup @types/yup
+RUN npm install react-modal
 RUN npm install @types/react-modal
