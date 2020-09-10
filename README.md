@@ -1,7 +1,7 @@
 # 使い方
 ## cd ディレクトリ
 ## sudo chmod 777 -R .
-## mkdir app
+## mkdir [プロジェクト名]にしてcompose.ymlも修正
 ## docker-compose build
 ## make django
 ## make react'
