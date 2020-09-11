@@ -1,9 +1,9 @@
 # 使い方
 ## cd ディレクトリ
 ## sudo chmod 777 -R .
-## mkdir [プロジェクト名]にしてcompose.ymlも修正
+## mkdir app
 ## docker-compose build
-## make django
+docker-compose run --rm app sh -c "django-admin startproject [プロジェクト名] ."
 ## make react'
 redux使うならコマンド変更
 ## docker-compose up -d
