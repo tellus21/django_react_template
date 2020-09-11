@@ -3,7 +3,7 @@
 ## sudo chmod 777 -R .
 ## mkdir app
 ## docker-compose build
-docker-compose run --rm app sh -c "django-admin startproject [プロジェクト名] ."
+## docker-compose run --rm app sh -c "django-admin startproject [プロジェクト名] ."
 ## make react'
 redux使うならコマンド変更
 ## docker-compose up -d
