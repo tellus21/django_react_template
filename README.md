@@ -2,6 +2,7 @@
 ## cd ディレクトリ
 ## sudo chmod 777 -R .
 ## mkdir app
+## port番号変更する
 ## docker-compose build
 ## docker-compose run --rm app sh -c "django-admin startproject [プロジェクト名] ."
 ## docker-compose run --rm app sh -c "django-admin startapp [アプリケーション名]"
