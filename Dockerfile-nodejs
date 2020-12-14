@@ -1,4 +1,4 @@
-FROM node:12.13-alpine
+FROM node:14.15-alpine
 
 RUN npm install -g create-react-app
 RUN npm install axios
